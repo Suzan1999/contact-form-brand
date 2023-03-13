@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <!-- FontAwesome Icon CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tailwind stylesheet  -->
+    <link rel="stylesheet" href="../public/assets/css/output.css">git 
+</head>
+<body>
+    <!-- Starts From Contact Section -->
+    <div class="contact">
+        <div class="lg:container mx-auto lg:max-w-screen-2xl px-5 md:px-8 lg:px-14">
+            <!-- Contact Content  -->
+            <div class="contact__content flex flex-wrap justify-between">
+                <!-- Contact Details  -->
+                <div class="contact__details bg-[#6500A6] p-5 lg:p-10 text-white w-full md:w-1/3 relative order-2 md:order-1">
+                    <!-- Contact Heading  -->
+                    <h1 class="contact__heading text-xl font-bold">
+                        Get in touch
+                    </h1>
+                    <!-- Contact Description  -->
+                    <p class="contact__desc opacity-70">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat adipisci ut dolores dignissimos beatae esse cumque quae necessitatibus amet earum!
+                    </p>
+                    <!-- Contact Item  -->
+                    <div class="contact__item flex justify-start item-center gap-3 mt-5">
+                        <span>
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                        <ul>
+                            <li>Chat to us</li>
+                            <li class="mt-2 opacity-70">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li class="mt-2">Support@gmail.com</li>
+                        </ul>
+                    </div>
+                    <!-- Contact Item  -->
+                    <div class="contact__item flex justify-start item-center gap-3 mt-5">
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </span>
+                        <ul>
+                            <li>Office</li>
+                            <li class="mt-2 opacity-70">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li class="mt-2">Support@gmail.com</li>
+                        </ul>
+                    </div>
+                    <!-- Contact Item  -->
+                    <div class="contact__item flex justify-start item-center gap-3 mt-5 mb-16">
+                        <span>
+                            <i class="fa-solid fa-phone"></i>
+                        </span>
+                        <ul>
+                            <li>Phone</li>
+                            <li class="mt-2 opacity-70">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li class="mt-2">+88 017700805</li>
+                        </ul>
+                    </div>
+                    <!-- Contact Social Icon  -->
+                    <div class="contact-icon absolute bottom-5 lg:bottom-10 left-5 lg:left-10  right-5 lg:right-10 ">
+                        <ul class="flex justify-start item-center gap-6">
+                            <li>
+                                <a class="text-xl hover:opacity-70" href="#">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-xl hover:opacity-70" href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                                <a class="text-xl hover:opacity-70" href="#">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </li>
+                            </li>
+                                <a class="text-xl hover:opacity-70" href="#">
+                                    <i class="fa-brands fa-square-youtube"></i>
+                                </a>
+                            </li>
+                            </li>
+                                <a class="text-xl hover:opacity-70" href="#">
+                                    <i class="fa-brands fa-dribbble"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Contact Form  -->
+                <div class="contact__form w-full md:w-2/3 py-10 lg:py-20 md:px-16 lg:px-20 xl:px-32 bg-white order-1 md:order-2">
+                    <!-- Form Title  -->
+                    <h1 class="form__title text-2xl md:text-4xl font-bold">
+                        Level Up Your Brand
+                    </h1>
+                    <!-- Form Para  -->
+                    <p class="form-para mt-3">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span class="font-semibold">Support@gmail.com</span>
+                    </p>
+                    <!-- Form  -->
+                    <form action="#" class="mt-8">
+                        <label for="name">
+                            Name
+                        </label>
+                        <input class="w-full border border-solid border-black rounded outline-none mt-1 py-1 px-4" type="text" name="" id="name" placeholder="Your Name">
+                        <label class="inline-block mt-4" for="email">
+                            Email
+                        </label>
+                        <input class="w-full border border-solid border-black rounded outline-none mt-1 py-1 px-4" type="email" name="" id="email" placeholder="yahoo@gmail.com">
+                        <label class="inline-block mt-4" for="">
+                            Phone Number
+                        </label>
+                        <div class="border border-solid border-black rounded py-1 px-4 mt-1 flex ">
+                            <select class="bg-transparent" name="" id="">
+                                <option value="">us</option>
+                                <option value="">bd</option>
+                                <option value="">uk</option>
+                                <option value="">africa</option>
+                            </select>
+                            <input class="w-full  outline-none py-1 px-4" type="tel" name="" id="" placeholder="0170080088">
+                        </div>
+                        <label class="inline-block mt-4" for="">
+                            How Can we help?
+                        </label>
+                        <textarea class="w-full border border-solid border-black rounded outline-none mt-1 py-1 px-4 resize-none h-32" name="" id="" cols="30" rows="10" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus."></textarea>
+                        <label class="inline-block text-xl font-medium mt-5" for="">
+                            Services
+                        </label>
+                        <div class="mt-4 flex justify-start item-center gap-20">
+                            <ul class="">
+                                <li>
+                                    <input type="checkbox" name="" id="website-design">
+                                    <label for="website-design">
+                                        Website Design
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="ux-design">
+                                    <label for="ux-design">
+                                        UX Design
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="user-resourch">
+                                    <label for="user-resourch">
+                                        User Resourch
+                                    </label>
+                                </li>
+                            </ul>
+                            <ul class="">
+                                <li>
+                                    <input type="checkbox" name="" id="content-creation">
+                                    <label for="content-creation">
+                                        Content Creation
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="consalting">
+                                    <label for="consalting">
+                                        Consalting
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="others">
+                                    <label for="others">
+                                        Others
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Form Button  -->
+                        <div class="mt-10">
+                            <button class="w-full bg-[#6500A6] rounded-lg pt-2 pb-3 px-5 text-xl font-medium text-white hover:opacity-80" type="button">
+                                Get Started
+                            </button>
+                        </div>
+                    </form>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         'sujon': '#71717171',
-        'background': '#D5CCE1',
+        'grey': '#D5CCE1',
       },
     },
   },

@@ -8,22 +8,22 @@
     <!-- FontAwesome Icon CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Tailwind stylesheet  -->
-    <link rel="stylesheet" href="../public/assets/css/output.css">git 
+    <link rel="stylesheet" href="../public/assets/css/output.css">
 </head>
 <body>
     <!-- Starts From Contact Section -->
-    <div class="contact">
+    <div class="contact bg-background py-10">
         <div class="lg:container mx-auto lg:max-w-screen-2xl px-5 md:px-8 lg:px-14">
             <!-- Contact Content  -->
-            <div class="contact__content flex flex-wrap justify-between">
+            <div class="contact__content flex flex-wrap justify-between rounded-2xl">
                 <!-- Contact Details  -->
-                <div class="contact__details bg-[#6500A6] p-5 lg:p-10 text-white w-full md:w-1/3 relative order-2 md:order-1">
+                <div class="contact__details bg-[#6500A6] p-5 lg:p-10 text-white w-full md:w-1/3 relative order-2 md:order-1 rounded-b-lg md:rounded-l-lg">
                     <!-- Contact Heading  -->
                     <h1 class="contact__heading text-xl font-bold">
                         Get in touch
                     </h1>
                     <!-- Contact Description  -->
-                    <p class="contact__desc opacity-70">
+                    <p class="contact__desc opacity-70 mt-4">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat adipisci ut dolores dignissimos beatae esse cumque quae necessitatibus amet earum!
                     </p>
                     <!-- Contact Item  -->
@@ -32,9 +32,9 @@
                             <i class="fa-solid fa-envelope"></i>
                         </span>
                         <ul>
-                            <li>Chat to us</li>
+                            <li class="text-lg">Chat to us</li>
                             <li class="mt-2 opacity-70">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            <li class="mt-2">Support@gmail.com</li>
+                            <li class="mt-2">support@gmail.com</li>
                         </ul>
                     </div>
                     <!-- Contact Item  -->
@@ -43,9 +43,9 @@
                             <i class="fa-solid fa-location-dot"></i>
                         </span>
                         <ul>
-                            <li>Office</li>
+                            <li class="text-lg">Office</li>
                             <li class="mt-2 opacity-70">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            <li class="mt-2">Support@gmail.com</li>
+                            <li class="mt-2">support@gmail.com</li>
                         </ul>
                     </div>
                     <!-- Contact Item  -->
@@ -54,7 +54,7 @@
                             <i class="fa-solid fa-phone"></i>
                         </span>
                         <ul>
-                            <li>Phone</li>
+                            <li class="text-lg">Phone</li>
                             <li class="mt-2 opacity-70">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
                             <li class="mt-2">+88 017700805</li>
                         </ul>
@@ -89,43 +89,42 @@
                         </ul>
                     </div>
                 </div>
-
                 <!-- Contact Form  -->
-                <div class="contact__form w-full md:w-2/3 py-10 lg:py-20 md:px-16 lg:px-20 xl:px-32 bg-white order-1 md:order-2">
+                <div class="contact__form w-full md:w-2/3 py-10 lg:py-20 px-8 md:px-16 lg:px-20 xl:px-32 bg-white order-1 md:order-2 rounded-t-lg md:rounded-r-lg">
                     <!-- Form Title  -->
                     <h1 class="form__title text-2xl md:text-4xl font-bold">
-                        Level Up Your Brand
+                        Level up your brand
                     </h1>
                     <!-- Form Para  -->
                     <p class="form-para mt-3">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span class="font-semibold">Support@gmail.com</span>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span class="font-semibold">support@gmail.com</span>
                     </p>
                     <!-- Form  -->
                     <form action="#" class="mt-8">
                         <label for="name">
                             Name
                         </label>
-                        <input class="w-full border border-solid border-black rounded outline-none mt-1 py-1 px-4" type="text" name="" id="name" placeholder="Your Name">
+                        <input class="w-full border border-solid border-sujon rounded outline-none mt-1 py-1 px-4" type="text" name="" id="name" placeholder="your name">
                         <label class="inline-block mt-4" for="email">
                             Email
                         </label>
-                        <input class="w-full border border-solid border-black rounded outline-none mt-1 py-1 px-4" type="email" name="" id="email" placeholder="yahoo@gmail.com">
+                        <input class="w-full border border-solid border-sujon rounded outline-none mt-1 py-1 px-4" type="email" name="" id="email" placeholder="yahoo@gmail.com">
                         <label class="inline-block mt-4" for="">
                             Phone Number
                         </label>
-                        <div class="border border-solid border-black rounded py-1 px-4 mt-1 flex ">
+                        <div class="border border-solid border-sujon rounded py-1 px-4 mt-1 flex ">
                             <select class="bg-transparent" name="" id="">
-                                <option value="">us</option>
-                                <option value="">bd</option>
-                                <option value="">uk</option>
-                                <option value="">africa</option>
+                                <option value="">US</option>
+                                <option value="">BD</option>
+                                <option value="">UK</option>
+                                <option value="">Africa</option>
                             </select>
-                            <input class="w-full  outline-none py-1 px-4" type="tel" name="" id="" placeholder="0170080088">
+                            <input class="w-full  outline-none pl-2" type="tel" name="" id="" placeholder="+88 0170080088">
                         </div>
-                        <label class="inline-block mt-4" for="">
-                            How Can we help?
+                        <label class="inline-block mt-4" for="message">
+                            How can we help?
                         </label>
-                        <textarea class="w-full border border-solid border-black rounded outline-none mt-1 py-1 px-4 resize-none h-32" name="" id="" cols="30" rows="10" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus."></textarea>
+                        <textarea class="w-full border border-solid border-sujon rounded outline-none mt-1 py-1 px-4 resize-none h-24 md:h-32" name="" id="message" cols="30" rows="10" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus."></textarea>
                         <label class="inline-block text-xl font-medium mt-5" for="">
                             Services
                         </label>
@@ -137,13 +136,13 @@
                                         Website Design
                                     </label>
                                 </li>
-                                <li>
+                                <li class="mt-1">
                                     <input type="checkbox" name="" id="ux-design">
                                     <label for="ux-design">
                                         UX Design
                                     </label>
                                 </li>
-                                <li>
+                                <li class="mt-1">
                                     <input type="checkbox" name="" id="user-resourch">
                                     <label for="user-resourch">
                                         User Resourch
@@ -157,13 +156,13 @@
                                         Content Creation
                                     </label>
                                 </li>
-                                <li>
+                                <li class="mt-1">
                                     <input type="checkbox" name="" id="consalting">
                                     <label for="consalting">
                                         Consalting
                                     </label>
                                 </li>
-                                <li>
+                                <li class="mt-1">
                                     <input type="checkbox" name="" id="others">
                                     <label for="others">
                                         Others
@@ -173,7 +172,7 @@
                         </div>
                         <!-- Form Button  -->
                         <div class="mt-10">
-                            <button class="w-full bg-[#6500A6] rounded-lg pt-2 pb-3 px-5 text-xl font-medium text-white hover:opacity-80" type="button">
+                            <button class="w-full bg-[#6500A6] rounded-lg pt-2 pb-3 px-5 text-xl  font-bold text-white hover:opacity-80" type="button">
                                 Get Started
                             </button>
                         </div>

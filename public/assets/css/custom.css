@@ -1,11 +1,66 @@
-/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+ 
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/* 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* Firefox */
+
 input[type=number] {
   -moz-appearance: textfield;
 }
+    </style>
+</head>
+<body>
+    <form>
+        <i
+abu sayed10:30 PM
+<form>
+        <input type="number" onkeypress="inpNum(event)"  class="noscroll"/>
+        <input type="submit" value="click koren">
+    </form> 
+
+    <script>
+        function inpNum(e) {
+  e = e || window.event;
+  var charCode = (typeof e.which == "undefined") ? e.keyCode : e.which;
+  var charStr = String.fromCharCode(charCode);
+  if (!charStr.match(/^[0-9]+$/))
+    e.preventDefault();
+}
+
+document.addEventListener("wheel", function(event){
+    if(document.activeElement.type === "number" &&
+abu sayed10:32 PM
+document.addEventListener("wheel", function(event){
+    if(document.activeElement.type === "number" &&
+       document.activeElement.classList.contains("noscroll"))
+    {
+        document.activeElement.blur();
+    }
+});
+    </script>
+</body>
+</html> */
